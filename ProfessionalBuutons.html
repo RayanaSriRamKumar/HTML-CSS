@@ -4,7 +4,16 @@
   height:35px;
   width:105px;
   color: white;
+  transition:background-color 0.15s;
+  cursor: pointer;
+  transition: opacity 0.15s;
 }
+  .Uber-button:hover{
+    opacity:0.8;
+  }
+  .Uber-button:active{
+    opacity:0.4;
+  }
 
 .Amazon-button{
  background-color: rgb(255, 216, 20);
@@ -13,7 +22,14 @@
  width:125px;
  border:none;
  border-radius:20px;
+ transition: opacity 0.15s;
 }
+ .Amazon-button:hover{
+  opacity:0.8;
+ }
+ .Amazon-button:active{
+  opacity:0.4;
+ }
 
 .Github-button{
   background-color: rgb(46, 164, 79);
@@ -22,8 +38,18 @@
   width:110px;
   border-radius:5px;
   border: none;
+  cursor: pointer;
   font-weight: bold;
+  transition:background-color 0.15s; 
+  color:0.15s;
 }
+  .Github-button:hover{
+   background-color: rgb(18, 148, 11);
+   color:white;
+  }
+  .Github-button:active{
+    opacity: 0.7;
+  }
 
 .Bootstrap-button{
   background-color: rgb(121, 82, 179);
@@ -33,8 +59,16 @@
   width: 105px;
   border-radius:5px;
   font-weight: bold;
+  transition: background-color 0.15s;
+  color:0.15s;
 }
-
+ .Bootstrap-button:hover{
+  background-color: rgb(191, 0, 255);
+  color:white;
+ }
+ .Bootstrap-button:active{
+  opacity:0.4;
+ }
 .Bootstrap-download{
   background-color:none;
   color: rgb(108, 117, 125);
@@ -43,7 +77,15 @@
   width:105px;
   border-radius:5px;
   font-weight:bold;
+  transition: opacity 0.15s;
 }
+ .Bootstrap-download:hover{
+  opacity:0.8;
+ }
+ .Bootstrap-download:active{
+  opacity:0.4;
+ }
+
 .Linkedin-Company{
  background-color: rgb(10, 102, 194);
  color:white;
@@ -52,7 +94,15 @@
  height:35px;
  width:200px;
  border-radius:20px;
+ transition: background-color 0.15;color:0.15s;
 }
+ .Linkedin-Company:hover{
+  background-color: rgb(0, 140, 255);
+  color:white;
+ }
+ .Linkedin-Company:active{
+  opacity:0.8;
+ }
 .Linkedin-Save{
   background-color:none;
   color: rgb(10, 102, 194);
@@ -60,8 +110,16 @@
   height:35;
   width:105;
   border-radius:20px;
+  cursor:pointer;
   border-color: rgb(10, 102, 194);
+  transition: opacity 0.15s;
 }
+  .Linkedin-Save:hover{
+    opacity:0.8;
+  }
+  .Linkedin-Save:active{
+    opacity:0.4;
+  }
 </style>
 
 <button class="Uber-button">

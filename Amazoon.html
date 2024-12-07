@@ -3,7 +3,16 @@
   color:rgb(0, 118, 0);
   font-size:17px;
   font-weight:bold;
+  transition: background-color 0.15s;
+  color:0.15s
 }
+ .stock-para:hover{
+  background-color:red;
+  color: white;
+ }
+ .stock-para:active{
+  opacity: 0.4;
+ }
 .cart{
  background-color:rgb(255, 216, 20);
  color:black;
@@ -11,8 +20,18 @@
  height:30;
  width:105;
  border-radius:20px;
-}
-
+ cursor: pointer;
+ transition: background-color 0.15s;
+ transition: box-shadow 0.15s;
+ }
+  .cart:hover{
+    background-color:grey ;
+    box-shadow:10px 10px 10px black(0, 0, 0, 0,0.15);
+  }
+  .cart:active{
+    opacity:0.7;
+  }
+  
 .Buy{
   background-color:rgb(255, 164, 28);
   color:black;
@@ -20,7 +39,15 @@
   width:105;
   border:none;
   border-radius:20px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  transition: background-color 0.15s;
 }
+ .Buy:hover{
+  box-shadow:10px 10px 10px black(0, 0, 0,0.15);
+  background-color:green;
+  }
+ 
 </style>
 
 <a href="https://www.amazon.in/">
