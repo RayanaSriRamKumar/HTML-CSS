@@ -1,4 +1,3 @@
-<style>
 .Uber-button{
   background-color: black;
   height:35px;
@@ -23,6 +22,8 @@
  border:none;
  border-radius:20px;
  transition: opacity 0.15s;
+ padding-top: 10;
+ padding-bottom: 10;
 }
  .Amazon-button:hover{
   opacity:0.8;
@@ -120,32 +121,3 @@
   .Linkedin-Save:active{
     opacity:0.4;
   }
-</style>
-
-<button class="Uber-button">
-  Request Now
-</button>
-
-<button class="Amazon-button">
-  Add to Cart
-</button>
-
-<button class="Github-button">
-  Sign Up
-</button>
-
-<button class="Bootstrap-button">
-  Get started
-</button>
-
-<button class="Bootstrap-download">
-  Download
-</button>
-
-<button class="Linkedin-Company">
-  Apply on company website
-</button>
-
-<button class="Linkedin-Save">
-  Save
-</button>
